@@ -40,10 +40,27 @@ h2 {
 	padding-left: 5px;
 	font-family: Avenir, Helvetica, sans-serif;
 }
-td a img {
-	width:400px;
-	padding: 0px 5px 0px 5px;
+.landscape {  
+	width:175px;     
+        height: 175px;    
+        overflow: hidden;    
+    }
+.landscape img {
+	width:auto;
+        height: 175px;   
+    }
+.portrait {
+	width: 175px;
+        height: 175px;
+        overflow: hidden;    
+    }
+.portrait img {
+	width: 175px;
+	height: auto;
 }
+	
+	
+
 </style>
 </head>
 
@@ -63,14 +80,14 @@ td a img {
   <table>
 	        <tbody>
 	            <tr>
-	                <td><a href="something.html"><img src="http://media.mydogspace.com.s3.amazonaws.com/wp-content/uploads/2013/11/puppy-terrier-620x350.jpg"/></a></td>
-	                <td><a href="something.html"><img src="http://media.mydogspace.com.s3.amazonaws.com/wp-content/uploads/2013/11/puppy-terrier-620x350.jpg"/></a></td>
-	                <td><a href="something.html"><img src="http://media.mydogspace.com.s3.amazonaws.com/wp-content/uploads/2013/11/puppy-terrier-620x350.jpg"/></a></td>
+	                <td><a class="landscape" href="something.html"><img src="http://media.mydogspace.com.s3.amazonaws.com/wp-content/uploads/2013/11/puppy-terrier-620x350.jpg"/></a></td>
+	                <td><a class="landscape" href="something.html"><img src="http://media.mydogspace.com.s3.amazonaws.com/wp-content/uploads/2013/11/puppy-terrier-620x350.jpg"/></a></td>
+	                <td><a class="landscape" href="something.html"><img src="http://media.mydogspace.com.s3.amazonaws.com/wp-content/uploads/2013/11/puppy-terrier-620x350.jpg"/></a></td>
 	            </tr>
 	            <tr>
-	                <td><a href="something.html"><img src="http://media.mydogspace.com.s3.amazonaws.com/wp-content/uploads/2013/11/puppy-terrier-620x350.jpg"/></a></td>
-	                <td><a href="something.html"><img src="http://media.mydogspace.com.s3.amazonaws.com/wp-content/uploads/2013/11/puppy-terrier-620x350.jpg"/></a></td>
-	                <td><a href="something.html"><img src="http://media.mydogspace.com.s3.amazonaws.com/wp-content/uploads/2013/11/puppy-terrier-620x350.jpg"/></a></td>
+	                <td><a class="landscape" href="something.html"><img src="http://media.mydogspace.com.s3.amazonaws.com/wp-content/uploads/2013/11/puppy-terrier-620x350.jpg"/></a></td>
+	                <td><a class="landscape" href="something.html"><img src="http://media.mydogspace.com.s3.amazonaws.com/wp-content/uploads/2013/11/puppy-terrier-620x350.jpg"/></a></td>
+	                <td><a class="portrait" href="something.html"><img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Beagle_puppy_portrait.jpg"/></a></td>
 	            </tr>
 	        </tbody>
 	   </table>
